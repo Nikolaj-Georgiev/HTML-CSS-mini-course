@@ -1,0 +1,31 @@
+table,
+td,
+tr,
+th {
+    font-size: x-large;
+    margin: 40px auto;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    font-family: 'Helvetica', sans-serif;
+}
+
+td {
+    padding: 5px 20px;
+}
+
+th {
+    padding: 10px 100px;
+}
+
+.bold {
+    padding: 10px 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result {
+    width: 400px;
+    text-align: left;
+    padding-right: 5px;
+    padding: 10px 30px;
+}
