@@ -1,0 +1,128 @@
+body {
+    background-color: #F0F1F5;
+    font-family: "Helvetica", sans-serif;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+}
+
+header section:nth-child(1) {
+    color: #f9690e;
+}
+
+header section:nth-child(1) i {
+    color: #f9690e;
+    font-size: 30px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    width: 660px;
+}
+
+nav ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li:not(:last-child) {
+    padding-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #F9690E;
+}
+
+header section:nth-child(1) p {
+    width: 500px;
+    display: inline-block;
+}
+
+header section:nth-child(2) {
+    background: url("Images/picture.jpg") no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+header section:nth-child(2) p {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+header section:nth-child(2) span {
+    color: #f9690e;
+}
+
+header section:nth-child(2) button {
+    margin-top: 50px;
+    background: #F9690E;
+    color: #FEF8FF;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+header section:nth-child(2) button:hover {
+    background: #FEF8FF;
+    color: #F9690E;
+    cursor: pointer;
+}
+
+main article {
+    display: inline-block;
+    width: 390px;
+    padding: 0px;
+    margin: 0px;
+    background: #F9690E;
+    color: white;
+    text-align: center;
+}
+
+main article h3 {
+    display: inline-block;
+    width: 150px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+main article p {
+    padding: 15px;
+    margin: 15px;
+}
+
+footer {
+    margin: 0;
+    padding: 30px 0 10px 0;
+}
+
+footer p {
+    width: 730px;
+    display: inline-block;
+}
+
+footer ul {
+    width: 400px;
+    display: inline-block;
+    text-align: right;
+}
+
+footer a i {
+    color: black;
+}
