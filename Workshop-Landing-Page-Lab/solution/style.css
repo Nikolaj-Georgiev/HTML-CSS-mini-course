@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 0 20px;
+}
+
+.navigation p {
+    display: inline-block;
+    font-size: 22px;
+    width: 685px;
+}
+
+.navigation p span {
+    color: #50b9e1;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav i {
+    border: solid black 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+body>header>section.navigation>nav>ul>li:nth-child(5) {
+    padding-right: 0;
+}
+
+body>header>section.navigation>nav>ul>li:nth-child(5)>a {
+    padding-right: 0;
+}
+
+body>header>section.navigation>nav>ul>li:nth-child(6)>ul {
+    padding-left: 15px;
+}
+
+nav a:hover {
+    color: #50b9e1;
+    cursor: pointer;
+}
+
+
+/*site header*/
+
+.site-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('./Images/kids_main.jpg') no-repeat;
+    background-size: cover;
+}
+
+.site-header h1 {
+    font-size: 66px;
+    color: white;
+    width: 38%;
+    margin: 0;
+    padding: 300px 0 50px 110px;
+}
+
+.site-header button {
+    font-size: 26px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px 0px 200px 110px;
+}
+
+.site-header button:hover {
+    background: #50b9e1;
+    border: 2px solid #50b9e1;
+    cursor: pointer;
+}
+
+
+/*main welcome section*/
+
+.welcome {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #5a7c8a;
+    padding: 20px 0;
+}
+
+.welcome h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.welcome p span a {
+    text-decoration: none;
+    color: #50b9e1;
+}
+
+
+/*main offers section*/
+
+.offers {
+    background-color: #50b9e1;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.offers h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+    margin: 30px 0 50px;
+}
+
+.offers a {
+    text-decoration: none;
+    color: white;
+}
+
+.offers li {
+    display: inline-block;
+    color: white;
+    font-family: 'PT Serif', serif;
+    width: 30%;
+    text-align: center;
+}
+
+.offers li p {
+    padding: 0 30px 40px;
+}
+
+.offers ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 0 50px;
+    padding-inline-start: 0;
+}
+
+.offers img {
+    width: 70px;
+}
+
+
+/*camps*/
+
+.camps {
+    color: #5a7c8a;
+    margin: 0 auto;
+}
+
+.camps h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-style: italic;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.camps>p {
+    width: 52%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.camps img {
+    width: 400px;
+    height: 200px;
+}
+
+.camps li {
+    display: inline-block;
+    width: 400px;
+    padding: 0 22px;
+}
+
+.camps ul {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+.camps ul li:nth-child(1) {
+    padding-left: 0;
+}
+
+.camps ul li:nth-child(3) {
+    padding-right: 0;
+}
+
+.info div {
+    display: inline-block;
+}
+
+.info div p,
+.info div h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.info div:nth-child(1) {
+    width: 345px;
+}
+
+.info div:nth-child(2) {
+    background: #50b9e1;
+    color: white;
+    font-size: 27px;
+    padding: 5px;
+    font-family: 'ST Serif', serif;
+}
+
+.info {
+    border-bottom: solid 2px #5a7c8a;
+    padding-bottom: 10px;
+}
+
+.more-info button {
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid #43bae3;
+    color: #43bae3;
+    padding: 10px;
+}
+
+.more-info button:hover {
+    background: #43bae3;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+footer {
+    background: #43bae3;
+    color: #5a7c8a;
+    text-decoration: none;
+    padding: 0 60px 0 140px;
+}
+
+footer p {
+    width: 85%;
+}
+
+footer p,
+footer ul,
+footer li,
+footer a {
+    color: #5a7c8a;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a {
+    border: solid 1px #5a7c8a;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
